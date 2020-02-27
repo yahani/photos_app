@@ -1,9 +1,0 @@
-<h1>Your Uploads</h1>
-<ul>
-  {% for post in photos %}
-    <h4>{{ post.title }}</h4>
-    <img src="{{ post.image.url}}" alt="{{ post.title }}" width="300" height="300">
-    <input type="submit" value="Edit">
-    <input type="submit" id="del" data-toggle="modal" data-target="#delete-modal" href="#delete-modal"></input>
-  {% endfor %}
-</ul>
