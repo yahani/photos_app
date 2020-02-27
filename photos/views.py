@@ -9,6 +9,7 @@ from rest_framework.viewsets import ModelViewSet
 from .models import Photo
 from .serializer import PhotoSerializer
 
+
 class PhotosView(APIView):
 
     def put(self, request):
@@ -47,7 +48,6 @@ class PhotosView(APIView):
         else:
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-
     def delete(self, request, photo_id):
         photo = get_object_or_404(Photo.objects.all(), pk=photo_id)
         photo.delete()
@@ -55,7 +55,6 @@ class PhotosView(APIView):
 
 
 class PhotosViewSet(ModelViewSet):
-
     queryset = Photo.objects.all()
 
     def get_queryset(self):
