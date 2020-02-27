@@ -24,7 +24,7 @@ SECRET_KEY = 'fr%&depy8gzrj$k%g$e$6rc2stt62c+hf_xi7eim6e2y=q@2tx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['herokudjangoapp.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['herokudjangoapp.herokuapp.com', 'heroku-photos-app.herokuapp.com', '127.0.0.1']
 
 # Application definition
 
@@ -129,7 +129,3 @@ STATICFILES_DIRS = (
 
 #  Add configuration for static files storage using whitenoise
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
-import dj_database_url
-prod_db  =  dj_database_url.config()
-DATABASES['default'].update(prod_db)
