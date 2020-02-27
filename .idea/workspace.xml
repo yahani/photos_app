@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dfe7c68-4182-4891-ac1a-ae2d2acd7b6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1_CXvMssQ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1_D0t4Q10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1_MOi6ZOQ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1_dmY79If.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/migrations/0003_photo_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/serializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photos_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/photos_app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photos_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/photos_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/photos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/photos/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/photos/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +51,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582735355825" />
-    <state x="463" y="144" width="630" height="536" key="find.popup" timestamp="1582740301580">
+    <state x="254" y="195" width="701" height="536" key="find.popup" timestamp="1582763328938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="463" y="144" width="630" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1582740301580" />
+    <state x="254" y="195" width="701" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1582763328938" />
   </component>
 </project>
