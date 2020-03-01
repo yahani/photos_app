@@ -28,7 +28,7 @@ Response:
     }
     
     
-##Obtain JWT token
+## Obtain JWT token
 
 POST: https://heroku-photos-app.herokuapp.com/api/token/
 
