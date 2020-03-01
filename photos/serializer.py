@@ -10,7 +10,7 @@ class PhotoSerializer(serializers.ModelSerializer):
 
     def update(self, instance, data):
         instance.caption = data.get('caption', instance.caption)
-        instance.created = data.get('saved', instance.created)
+        instance.created = data.get('saved', instance.saved)
 
         instance.save()
         return instance
