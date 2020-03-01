@@ -46,7 +46,7 @@ class PhotosView(APIView):
         _mutable = data._mutable
         data._mutable = True
 
-        if 'draft' not in data or data['draft'] is False:
+        if 'is_draft' not in data or data['is_draft'] is False:
             data['saved'] = datetime.now()
 
         data._mutable = _mutable
